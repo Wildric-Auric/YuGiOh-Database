@@ -1,4 +1,7 @@
 # YuGiOh-Database
+
+[Cards images](https://drive.google.com/drive/folders/12nk5zoPHbSz0zFOf1qX1NuujC7oQ_WY7?usp=sharing)
+
 Using Python and sqlite I built a complete YuGiOh database, with a total of more than 11 000 Cards, Opened to everyone who want to make a fan YuGiOh game.
 
 Get .db file and open it in your sql browser.The Python code is how I scrapped to get data needed for the database:
