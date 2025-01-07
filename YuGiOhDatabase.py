@@ -154,7 +154,6 @@ def donwloadImages():
     t2.join()
     t3.join()
     t4.join()
-<<<<<<< HEAD
 
 def addAttributes():
     cardLinkPrefix = "https://yugioh.fandom.com/wiki/"
@@ -306,9 +305,6 @@ with sql.connect("sql.db") as connexion:
     sqlReq = "SELECT CardName FROM YuGiOhDB"
     cursor.execute(sqlReq)
     allCardList = cursor.fetchall()
-=======
-    
->>>>>>> 1e69644c19a2a9803983294f669e1259307b6466
     
 fillDatabase(0, len(allCardList), allCardList)
 # for i in range(len(allCardList)):
